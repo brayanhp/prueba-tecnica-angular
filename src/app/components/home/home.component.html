@@ -1,0 +1,19 @@
+<div class="wrapper-content">
+  <div class="container">
+    <form onSubmit={} class="needs-validation" novalidate [formGroup]='myForm'>
+      <div class="row wrapper-content__row--height">
+        <div class="col-12 col-lg-6">
+          <input type="text" class="form-control" required formControlName='usd' placeholder="USD">
+        </div>
+        <div class="col-12 col-lg-6">
+          <input type="text" class="form-control" required formControlName='eu' placeholder="EU">
+        </div>
+      </div>
+      <div class='row'>
+        <div class="container-fluid text-center">
+          <button (click)='submitForm()' class='btn btn-outline-primary text-uppercase wrapper-content__btn--calculate' type='submit'>Calculate</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

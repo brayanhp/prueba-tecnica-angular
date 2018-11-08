@@ -1,0 +1,15 @@
+.wrapper-content{
+  background: #eeeeee;
+  padding: 70px;
+  margin-top: 30px;
+
+  &__btn--calculate{
+    width: 210px;
+  }
+
+  &__row--height{
+    height: 100px;
+    align-items: center;
+  }
+
+}
